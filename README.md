@@ -38,5 +38,5 @@ Rene Sanchez Battaglia <br/>
 Vitor Hugo Guimarães da Silva <br/>
 
 # Licença
-The MIT License (MIT)
+Apache License (MIT)
 # Copyright ©️ 2023 - Trabalho SoftTech Solutions
