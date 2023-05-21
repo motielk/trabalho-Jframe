@@ -23,6 +23,9 @@ Computador, IDE, MySQL, JDK.
 ✔ Cadastro <br/>
 ✔ Visualização de Dados <br/>
 
+# Modelos entidade relacionamento
+<img src="https://github.com/motielk/trabalho-Jframe/assets/49123696/93bbae26-cf42-4a0b-854f-db4a1ae00d64" width=500>
+<img src="https://github.com/motielk/trabalho-Jframe/assets/49123696/aca92d14-c981-46cc-922c-b264102c815c" width=500>
 
 # Linguagem:
 ![image](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
