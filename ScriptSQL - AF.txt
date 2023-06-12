@@ -1,0 +1,57 @@
+create database if not exists Empresa;
+use Empresa;
+
+CREATE TABLE IF NOT EXISTS Alunos(
+  nome			varchar(100),
+  senha			varchar(30),
+  telefone 		varchar(20),
+  cpf			varchar(20) unique,
+  email			varchar(50),
+  sexo			varchar(15),
+  curso			varchar(100),
+  instituicao	varchar(100),
+  primary key (cpf)
+);
+
+CREATE TABLE IF NOT EXISTS Professores(
+nome	varchar(100),
+cpf		varchar(20) unique,
+email	varchar(50),
+sexo	varchar(15),
+primary key (cpf)
+);
+
+CREATE TABLE IF NOT EXISTS Materias(
+idMateria	int primary key auto_increment,
+nome	varchar(100),
+horasSemestrais	varchar(5),
+professor varchar(100),
+descricao varchar(200)
+);	
+
+CREATE TABLE IF NOT EXISTS Duvidas(
+idDuvida int primary key auto_increment,
+cpf varchar(20),
+nivel varchar(10),
+materia varchar(50),
+duvida varchar(300),
+foreign key (cpf) references Alunos (cpf)
+);
+
+CREATE TABLE IF NOT EXISTS Solicitacao(
+idSolicitacao int primary key auto_increment,
+cpfProfessor varchar(20),
+materia varchar(50),
+aluno varchar(100),
+duvida varchar(300),
+resposta varchar(300),
+foreign key (cpfProfessor) references Professores (cpf)
+);
+
+CREATE TABLE IF NOT EXISTS RelacaoMateriaAluno (
+idRelacao INT PRIMARY KEY AUTO_INCREMENT,
+idMateria INT,
+cpfAluno VARCHAR(20),
+FOREIGN KEY (idMateria) REFERENCES Materias (idMateria),
+FOREIGN KEY (cpfAluno) REFERENCES Alunos (cpf)
+);
