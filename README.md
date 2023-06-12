@@ -24,7 +24,7 @@ Computador, IDE, MySQL, JDK.
 ✔ Visualização de Dados <br/>
 
 # Modelos entidade relacionamento
-<img src="https://github.com/motielk/trabalho-Jframe/assets/49123696/93bbae26-cf42-4a0b-854f-db4a1ae00d64" width=500>
+<img src="https://github.com/motielk/trabalho-Jframe/assets/49123696/475b6111-c526-4201-80e0-f12fc8cd3f69" width=500>
 <img src="https://github.com/motielk/trabalho-Jframe/assets/49123696/aca92d14-c981-46cc-922c-b264102c815c" width=500>
 
 # Linguagem:
